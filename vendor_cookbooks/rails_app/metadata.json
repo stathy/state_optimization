@@ -1,0 +1,30 @@
+{
+  "name": "rails_app",
+  "version": "0.1.0",
+  "description": "Deploys and configures rails_app",
+  "long_description":"",
+  "maintainer": "Stathy, Inc.",
+  "maintainer_email": "stathy@stathy.com",
+  "license": "Apache 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "default": "Empty placeholder recipe, use the LWRPs, see README.md."
+  }
+}
