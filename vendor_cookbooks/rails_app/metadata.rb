@@ -1,6 +1,6 @@
-name             'test'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+name             'rails_app'
+maintainer       'Stathy, Inc.'
+maintainer_email 'stathy@stathy.com'
 license          'All rights reserved'
 description      'Installs/Configures test'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
