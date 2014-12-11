@@ -8,4 +8,5 @@ cookbook 'apt'
 cookbook 'user'
 cookbook 'ruby_build'
 cookbook 'git'
-
+cookbook 'chef-client'
+cookbook 'runit'
