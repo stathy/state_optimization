@@ -27,7 +27,7 @@
     owner 'deployer'
     group 'deployer'
     path '/home/deployer/app'
-    revision 'chef_demo'
+    revision 'production'
     repository 'git://github.com/stathy/rails_app.git'
 
     rails do
@@ -36,8 +36,10 @@
 
     unicorn do
       worker_processes 2
+      preload_app true
+      stderr_path "/home/deployer/app/current/log/unicorn.log"
+      stdout_path "/home/deployer/app/current/log/unicorn.log"
     end
 
-   action :force_deploy
   end
 

@@ -1,6 +1,6 @@
 {
   "name": "rails_app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Deploys and configures rails_app",
   "long_description":"",
   "maintainer": "Stathy, Inc.",
