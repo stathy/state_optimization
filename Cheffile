@@ -7,5 +7,5 @@ cookbook 'application_ruby'
 cookbook 'apt'
 cookbook 'user'
 cookbook 'ruby_build'
-
+cookbook 'git'
 
