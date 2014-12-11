@@ -23,7 +23,7 @@
   end
 
   # we define our application using application resource provided by application cookbook
-  application 'rails_app' do
+  application 'app' do
     owner 'deployer'
     group 'deployer'
     path '/home/deployer/app'
